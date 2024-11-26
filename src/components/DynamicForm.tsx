@@ -98,7 +98,7 @@ const DynamicForm = ({ formJson }) => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="p-4 mt-32 max-w-lg mx-4 sm:mx-auto border border-gray-300 rounded-lg"
+      className="p-4 mt-32 max-w-2xl mx-4 sm:mx-auto border border-gray-300 rounded-lg"
     >
       <h2 className="text-xl font-bold mb-4">{formJson.title}</h2>
       <p className="text-gray-600 mb-4">{formJson.description}</p>
